@@ -8,4 +8,6 @@ class State(TypedDict):
     question: str | None
     google_results: str | None
     reddit_results: str | None
-
+    google_analysis: dict | None
+    reddit_analysis: dict | None
+    answer: str | None
